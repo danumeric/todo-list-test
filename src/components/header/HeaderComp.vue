@@ -98,6 +98,10 @@ export default {
       this.updateFilterText(this.filterText);
     },
   },
+  created: function () {
+    //сброс поиска при перезагрузке
+    this.updateFilterText(this.filterText);
+  },
 };
 </script>
 
